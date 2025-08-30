@@ -700,24 +700,111 @@ nav a:hover{
    width: 400px;
     margin-top: 30px;
 }
+.rightservice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
-.rightservice{
-  
-    }
-
-
-.servco{
+.servco {
+  flex: 1 1 calc(50% - 20px); /* two per row */
+  max-width: calc(50% - 20px);
   background-color: #1d2024;
   backdrop-filter: blur(10px);
-  height: 70px;
+  border-radius: 50px;
+
   display: flex;
-  padding: 5px 20px 5px 5px;;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+.servco:hover {
+  transform: translateY(-5px);
+}
+
+.iconser {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+.iconser h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.iconser .idiv {
+  flex-shrink: 0;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(12, 16, 18, 0.637);
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50px;
-  font-size: 20px;
-
+  font-size: 22px;
+  color: #fff;
 }
+
+.iconser button {
+  flex-shrink: 0;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  border-radius: 50px;
+  padding: 8px 14px;
+  width: 90px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.iconser button:hover {
+  border: 1px solid #fff;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5),
+              0 0 20px rgba(255, 255, 255, .2);
+  text-shadow: 1px 1px 2px #427388;
+}
+
+/* Responsive: full width on small screens */
+@media (max-width: 768px) {
+  .servco {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-height: 80px;
+  }
+
+  .iconser .idiv {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+
+  .iconser h3 {
+    font-size: 18px;
+  }
+
+  .iconser button {
+    width: 80px;
+    font-size: 14px;
+  }
+}
+
 
 
 .iconser{
