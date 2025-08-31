@@ -1245,6 +1245,17 @@ form button:hover{
   z-index: 2;
 }
 
+.fifteen{
+  transform: rotate(-90deg);
+  margin-top: 300px;
+  position: absolute;
+}
+
+.stand{
+  margin-left: -50px;
+  height: 90vh;
+}
+
 
 
 
