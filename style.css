@@ -1111,7 +1111,7 @@ form button:hover{
     }
 
     .section-one{
-      width: 100%;
+      width: 320px;
     }
 
     .circle{
@@ -1119,7 +1119,7 @@ form button:hover{
       height: 280px;
       width: 290px;
       border: 15px solid #7BC74D;
-      margin-right: 19px;
+      margin-right: 15px;
     }
 
     .leftname{
