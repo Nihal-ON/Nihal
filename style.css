@@ -1122,6 +1122,7 @@ form button:hover{
 
     .section-one{
       width: 320px;
+      height: 650px;
     }
 
     .circle{
@@ -1194,7 +1195,7 @@ form button:hover{
 .social-media{
   height: 40px;
   width: 180px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .social-media button{
