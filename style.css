@@ -114,6 +114,13 @@ nav{
     align-items: center;
 }
 
+.navbar{
+  display: none;
+}
+
+
+
+
 .logo{
     height: 75px;
     position: relative;
@@ -1086,3 +1093,99 @@ form button:hover{
 
 
 
+
+
+/*responsive 320px, 480px, 768px, 1024px, 1200px, 1440px*/
+
+
+/*responsive 320px*/
+
+@media (max-width: 320px) {
+
+  nav{
+    z-index: 999;
+  }
+
+    .right a{
+      display: none;
+    }
+
+    .section-one{
+      width: 100%;
+    }
+
+    .circle{
+      margin-top: 135px;
+      height: 280px;
+      width: 290px;
+      border: 15px solid #7BC74D;
+      margin-right: 19px;
+    }
+
+    .leftname{
+      margin-top: -100px;
+      margin-left: -50px;
+    }
+
+    .lined{
+    display: none;
+    }
+
+    .leftname h2{
+      margin-right: 155px;
+    }
+
+    .logo{
+      right: 7px;
+      height: 70px;
+      top: -10px;
+    }
+
+
+    .navbar{
+      display: block;
+      background: #fff;
+      color: #000;
+      border: none;
+      border-radius: 100px;
+      margin-left: 0px;
+      height: 35px;
+      width: 35px;
+      padding: 3px;
+    }
+
+    .line {
+    display: flex;
+    margin-left: 822px;
+    width: 100%;
+}
+
+    .typer{
+      font-size: 25px;
+      margin-left: -49px;
+    }
+
+   .leftname h3{
+    font-size: 40px;
+}
+
+   .leftname h2{
+    font-size: 25px;
+    margin-left: -820px;
+
+}
+
+
+.social-media{
+  height: 40px;
+  width: 180px;
+  margin-top: 15px;
+}
+
+.social-media button{
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+}
+  
+  }
