@@ -1211,7 +1211,11 @@ form button:hover{
 }
 
 .vertical{
-
+    margin-top: -100px;
+    margin-left: 200px;
+    margin-right: -200px;
+    position: relative;
+    z-index: 1;
 }
 
 .rightaboutme{
@@ -1222,6 +1226,10 @@ form button:hover{
 .rightaboutme p{
    font-size: 13px;
    width: 280px;
+   position: absolute;
+  z-index: 2;
+  top: px;
+  margin-top: 25px;
 }
 
 .rightaboutme h3{
@@ -1232,6 +1240,9 @@ form button:hover{
 
 .buttomtags{
   width: 300px;
+  margin-top: 190px;
+  position: absolute;
+  z-index: 2;
 }
 
 
