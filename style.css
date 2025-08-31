@@ -1102,6 +1102,11 @@ form button:hover{
 
 @media (max-width: 320px) {
 
+*{
+  z-index: 1;
+}
+
+
   nav{
     z-index: 999;
   }
@@ -1120,6 +1125,11 @@ form button:hover{
       width: 290px;
       border: 15px solid #7BC74D;
       margin-right: 15px;
+    }
+
+    .upper{
+      position: sticky;
+      z-index: 999;
     }
 
     .leftname{
