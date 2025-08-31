@@ -871,6 +871,12 @@ nav a:hover{
     overflow: hidden;
 }
 
+.getin{
+  position: relative;
+  top: -180px;
+  left: -100px;
+}
+
 .getin h2{
   font-size: 60px;
   line-height: .70;
@@ -878,6 +884,10 @@ nav a:hover{
 
 .getin span{
   font-size: 40px;
+}
+
+.leftcontact{
+  margin-right: 70px;
 }
 
 *,
