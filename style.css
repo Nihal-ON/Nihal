@@ -1112,6 +1112,8 @@ form button:hover{
 }
 
 
+
+
   nav{
     z-index: 999;
   }
@@ -1120,7 +1122,7 @@ form button:hover{
       display: none;
     }
 
-    .section-one{
+    body, .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
       width: 320px;
       height: 650px;
     }
@@ -1203,5 +1205,53 @@ form button:hover{
     width: 30px;
     font-size: 12px;
 }
+
+.section-two{
+  display: block;
+}
+
+.vertical{
+
+}
+
+.rightaboutme{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.rightaboutme p{
+   font-size: 13px;
+   width: 280px;
+}
+
+.rightaboutme h3{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
+.buttomtags{
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   }
