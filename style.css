@@ -1398,6 +1398,22 @@ form button:hover{
 
   
 
+/*section six*/
+
+
+.section-six{
+  display: block;
+  height: auto;
+}
+
+.firstcolu {
+  max-width: 400px;
+}
+
+.rightcontact button{
+  width: 300px;
+  font-size: 15px;
+}
 
 
 
