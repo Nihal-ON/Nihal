@@ -1299,14 +1299,78 @@ form button:hover{
 
 
 
+/*section four*/
+
+.section-four{
+  display: block;
+}
 
 
+.myworkstext p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.myworkstext h2{
+  font-family: 50px;
+  font-weight: 600;
+}
+
+.myworkstext{
+  position: relative;
+  top: 30px; 
+}
+
+.workleft{
+  margin-left: 15px;
+}
+
+    .workright {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin-top: 40px;
+        height: 360px;
+        box-shadow: inset 0 0 10px #000;
+
+    }
+
+    .filter-btn{
+      bottom: -5px;
+      right: 0;
+      width: 50px;
+      height: 50px;
+    }
+
+    .filter-btn svg{
+      padding: 1px;
+      margin-top: -6px;
+    }
 
 
+  /*section five*/
+
+  .section-five{
+    display: block;
+  }
 
 
+.leftservice p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.leftservice h2{
+  font-family: 50px;
+  font-weight: 600;
+}
 
 
+.servicetext{
+  margin-left: 15px;
+  margin-top: 30px;
+}
 
 
 
