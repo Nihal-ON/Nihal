@@ -1267,9 +1267,22 @@ form button:hover{
   display: block;
 }
 
+.skillsleft p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.skillsleft h2{
+  font-family: 50px;
+  font-weight: 600;
+}
+
 
 .skillsleft{
-
+  position: relative;
+  margin-left: 13px;
+  margin-top: -305px;
 }
 
 .rightskill{
