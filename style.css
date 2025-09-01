@@ -80,7 +80,9 @@
   }
 }
 
-  
+    html, body {
+        overflow-x: hidden;
+    }
 
 body{
     background-color: #222831;
@@ -1108,16 +1110,14 @@ form button:hover{
 
 @media (max-width: 320px) {
 
-  html, body {
-        overflow-x: hidden;
-    }
-
-
-
 *{
   z-index: 1;
 }
 
+
+  html, body {
+        overflow-x: hidden;
+    }
 
 
 
