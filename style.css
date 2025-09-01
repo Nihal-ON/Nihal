@@ -425,7 +425,7 @@ nav a:hover{
     .skillsleft{
       display: flex;
       position: absolute;
-      margin-left: -500px;
+      margin-left: -810px;
       margin-top: 40px;
     }
 
@@ -1260,6 +1260,29 @@ form button:hover{
 }
 
 
+
+/*section three*/
+
+.sectionthree{
+  display: block;
+}
+
+
+.skillsleft{
+
+}
+
+.rightskill{
+  height: 330px;
+  width: 290px;
+  position: relative;
+  top: 300px;
+  right: -16px;
+}
+
+.tag{
+  padding: 2px 4px;
+}
 
 
 
