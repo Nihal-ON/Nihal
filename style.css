@@ -1352,6 +1352,8 @@ form button:hover{
 
   .section-five{
     display: block;
+    height: auto;
+    padding: 10px;
   }
 
 
@@ -1368,9 +1370,31 @@ form button:hover{
 
 
 .servicetext{
-  margin-left: 15px;
+  margin-left: 5px;
   margin-top: 30px;
 }
+
+.rightservice{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.iconser .idiv{
+  height: 50px;
+  width: 50px;
+}
+
+.iconser h3 {
+        font-size: 15px;
+    }
+
+    .iconser{
+      gap: 0;
+    }
+
+    .iconser button{
+      
+    }
 
 
 
