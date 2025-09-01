@@ -1406,6 +1406,8 @@ form button:hover{
 
 .firstcolu {
   max-width: 400px;
+  margin-left: -40px;
+  margin-top: -40px;
 }
 
 .rightcontact button{
@@ -1413,8 +1415,27 @@ form button:hover{
   font-size: 15px;
 }
 
+form{
+  margin-top: 50px;
+  width: 310px;
+  margin-left: 15px;
+}
+
+.thirdtwo input, .thirdtwo textarea{
+    width: 290px;
+
+}
 
 
+.firsttwo input, .secondtwo input{
+  width: 140px;
+  
+}
+
+
+.thirdtwo {
+    margin-left: -10px;
+}
 
 
 
