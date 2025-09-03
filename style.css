@@ -1103,41 +1103,46 @@ form button:hover{
 
 /*responsive 320px, 480px, 768px, 1024px, 1200px, 1440px*/
 
-
-/*responsive 320px*/
-
-@media (max-width: 320px) {
-
-*{
+@media (max-width:480px){
+    *{
   z-index: 1;
 }
 
 
   html, body {
         overflow-x: hidden;
+        width: 480px;
     }
 
 
 
   nav{
     z-index: 999;
+    height: 70px;
   }
 
     .right a{
       display: none;
     }
 
-    body, .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
-      width: 320px;
-      height: 650px;
+    .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
+      width: 480px;
+      height: 950px;
     }
 
+    .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
+      padding: 20px 10px;
+    }
+
+
+
     .circle{
-      margin-top: 135px;
-      height: 280px;
-      width: 290px;
-      border: 15px solid #7BC74D;
-      margin-right: 15px;
+      margin-top: 180px;
+        height: 425px;
+        width: 425px;
+        border: 17px solid #7BC74D;
+        margin-right: 18px;
+        border-radius: 600px;
     }
 
     .upper{
@@ -1159,9 +1164,9 @@ form button:hover{
     }
 
     .logo{
-      right: 7px;
-      height: 70px;
-      top: -10px;
+      right: 2px;
+      height: 78px;
+      top: -4px;
     }
 
 
@@ -1171,11 +1176,15 @@ form button:hover{
       color: #000;
       border: none;
       border-radius: 100px;
-      margin-left: 0px;
-      height: 35px;
-      width: 35px;
-      padding: 3px;
+      margin-left: 52px;
+      height: 50px;
+      width: 50px;
+      padding: 1px 2px;
+      font-size: 34px;
+      text-align: center;
+      
     }
+
 
     .line {
     display: flex;
@@ -1184,31 +1193,34 @@ form button:hover{
 }
 
     .typer{
-      font-size: 25px;
+      font-size: 35px;
       margin-left: -49px;
     }
 
    .leftname h3{
-    font-size: 40px;
+    font-size: 70px;
 }
 
    .leftname h2{
-    font-size: 25px;
+    font-size: 35px;
     margin-left: -820px;
 
 }
 
 
 .social-media{
-  height: 40px;
-  width: 180px;
-  margin-top: 25px;
+  height: 70px;
+  width: 330px;
+  margin-top: 60px;
 }
 
 .social-media button{
-    height: 30px;
-    width: 30px;
-    font-size: 12px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-two{
@@ -1439,9 +1451,349 @@ form{
 
 
 
+  }
+/*responsive 320px*/
+
+@media (max-width: 320px) {
+
+*{
+  z-index: 1;
+}
+
+
+  html, body {
+        overflow-x: hidden;
+        width: 320px;
+
+    }
+
+
+
+  nav{
+    z-index: 999;
+    height: 50px;
+  }
+
+    .right a{
+      display: none;
+    }
+
+    .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
+      width: 320px;
+      height: 650px;
+    }
+
+
+    .circle{
+      margin-top: 165px;
+      height: 280px;
+      width: 290px;
+      border: 15px solid #7BC74D;
+      margin-right: 15px;
+    }
+
+    .upper{
+      position: sticky;
+      z-index: 999;
+    }
+
+    .leftname{
+      margin-top: -100px;
+      margin-left: -50px;
+    }
+
+    .lined{
+    display: none;
+    }
+
+    .leftname h2{
+      margin-right: 155px;
+    }
+
+    .logo{
+      right: 7px;
+      height: 70px;
+      top: -10px;
+    }
+
+
+    .navbar{
+      display: block;
+      background: #fff;
+      color: #000;
+      border: none;
+      border-radius: 100px;
+      height: 35px;
+      width: 35px;
+      padding: 0px;
+      font-size: 25px;
+    }
+
+    .line {
+    display: flex;
+    margin-left: 822px;
+    width: 100%;
+}
+
+    .typer{
+      font-size: 25px;
+      margin-left: -49px;
+    }
+
+   .leftname h3{
+    font-size: 40px;
+}
+
+   .leftname h2{
+    font-size: 25px;
+    margin-left: -820px;
+
+}
+
+
+.social-media{
+  height: 40px;
+  width: 180px;
+  margin-top: 25px;
+}
+
+.social-media button{
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+}
+
+.section-two{
+  display: block;
+  position: relative;
+  z-index: -2;
+}
+
+.vertical{
+    margin-top: -445px;
+    margin-left: 200px;
+    margin-right: -200px;
+    position: relative;
+    z-index: -1;
+}
+
+.rightaboutme{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.rightaboutme p{
+   font-size: 14px;
+   width: 280px;
+  z-index: 2;
+  margin-top: 25px;
+}
+
+.rightaboutme h3{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
+.buttomtags{
+  width: 300px;
+  margin-top: 19px;
+  z-index: 2;
+}
+
+.fifteen{
+  transform: rotate(-90deg);
+  margin-top: 30px;
+  position: relative;
+  right: 200px;
+}
+
+.stand{
+  margin-left: 50px;
+  height: 90vh;
+}
+
+
+
+/*section three*/
+
+.sectionthree{
+  display: block;
+}
+
+.skillsleft p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.skillsleft h2{
+  font-family: 50px;
+  font-weight: 600;
+}
+
+
+.skillsleft{
+  position: relative;
+  margin-left: 13px;
+  margin-top: -305px;
+}
+
+.rightskill{
+  height: 330px;
+  width: 290px;
+  position: relative;
+  top: 284px;
+  right: -7px;
+}
+
+.tag{
+  padding: 2px 4px;
+}
+
+
+
+
+/*section four*/
+
+.section-four{
+  display: block;
+}
+
+
+.myworkstext p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.myworkstext h2{
+  font-family: 50px;
+  font-weight: 600;
+}
+
+.myworkstext{
+  position: relative;
+  top: 30px; 
+}
+
+.workleft{
+  margin-left: 15px;
+}
+
+    .workright {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin-top: 40px;
+        height: 360px;
+        box-shadow: inset 0 0 10px #000;
+
+    }
+
+    .filter-btn{
+      bottom: 25px;
+      right: 0;
+      width: 50px;
+      height: 50px;
+    }
+
+    .filter-btn svg{
+      padding: 1px;
+      margin-top: -6px;
+    }
+
+
+  /*section five*/
+
+  .section-five{
+    display: block;
+    height: auto;
+    padding: 10px;
+  }
+
+
+.leftservice p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+
+.leftservice h2{
+  font-family: 50px;
+  font-weight: 600;
+}
+
+
+.servicetext{
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+.rightservice{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.iconser .idiv{
+  height: 50px;
+  width: 50px;
+}
+
+.iconser h3 {
+        font-size: 15px;
+    }
+
+    .iconser{
+      gap: 0;
+    }
+
+
+  
+
+/*section six*/
+
+
+.section-six{
+  display: block;
+  height: 950px;
+}
+
+.firstcolu {
+  max-width: 400px;
+  margin-left: -50px;
+  margin-top: -40px;
+}
+
+.rightcontact button{
+  width: 300px;
+  font-size: 15px;
+}
+
+form{
+  margin-top: 50px;
+  width: 310px;
+  margin-left: 3px;
+}
+
+.thirdtwo input, .thirdtwo textarea{
+    width: 290px;
+
+}
+
+
+.firsttwo input, .secondtwo input{
+  width: 140px;
+  
+}
+
+
+.thirdtwo {
+    margin-left: -10px;
+}
+
+
+
   
   }
 
 
-
-  
