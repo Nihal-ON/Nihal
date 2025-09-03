@@ -1127,7 +1127,7 @@ form button:hover{
 
     .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
       width: 480px;
-      height: 950px;
+      height: 100vh;
     }
 
     .section-one, .section-two, .sectionthree, .section-four, .section-five, .section-six{
@@ -1230,8 +1230,8 @@ form button:hover{
 }
 
 .vertical{
-    margin-top: -425px;
-    margin-left: 200px;
+    margin-top: -680px;
+    margin-left: 300px;
     margin-right: -200px;
     position: relative;
     z-index: -1;
@@ -1243,14 +1243,14 @@ form button:hover{
 }
 
 .rightaboutme p{
-   font-size: 14px;
+   font-size: 20px;
    width: 280px;
   z-index: 2;
   margin-top: 25px;
 }
 
 .rightaboutme h3{
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 600;
 }
 
@@ -1261,11 +1261,24 @@ form button:hover{
   z-index: 2;
 }
 
+.buttomtags button{
+  padding: 5px;
+  font-size: 18px;
+}
+
 .fifteen{
   transform: rotate(-90deg);
-  margin-top: 30px;
+  margin-top: 10px;
   position: relative;
-  right: 200px;
+  right: 300px;
+}
+
+.fifteen h2{
+  font-size: 70px;
+}
+
+.fifteen h3{
+  font-size: 28px;
 }
 
 .stand{
@@ -1282,33 +1295,42 @@ form button:hover{
 }
 
 .skillsleft p {
-    margin-top: 10px;
+    margin-top: 15px;
     width: 300px;
-    font-size: 14px;
+    font-size: 20px;
+    margin-left: -70px;
+
 }
 
 .skillsleft h2{
-  font-family: 50px;
   font-weight: 600;
+  font-size: 80px;
+  margin-left: -70px;
 }
 
 
 .skillsleft{
   position: relative;
   margin-left: 13px;
-  margin-top: -305px;
+  margin-top: -280px;
 }
 
 .rightskill{
-  height: 330px;
-  width: 290px;
+  height: 331px;
+  width: 435px;
   position: relative;
-  top: 300px;
-  right: -16px;
+  top: 538px;
+  right: -13px;
+}
+
+.tag-container{
+  gap: 20px;
+
 }
 
 .tag{
-  padding: 2px 4px;
+  padding: 6px 8px;
+  font-size: 17px;
 }
 
 
