@@ -52,9 +52,18 @@
                 <a href="#contactme">Contact</a>
                 <a href=""><button class="cv">Download CV</button></a>
             </div>
-                <button class="navbar">
-  <i class="fa-regular fa-compass" style="color: black;"></i>
+                <button class="navbar" id="menuBtn">
+                  <img src="./dashboard.svg" class="svgmenu" >    <div class="menu" id="menu">
+    <a href="#aboutme">About Me</a>
+    <a href="#myskill">My skills</a>
+    <a href="#mywork">My Works</a>
+    <a href="#Myservice">My service</a>
+    <a href="#contactme">Contact</a>
+    <a href="#">Download CV</a>
+    
+  </div>
     </button>
+
   </nav>
 </div>
 
@@ -558,14 +567,19 @@
 <script>
 
 
-let btn = document.querySelector("button");
+const menuBtn = document.getElementById('menuBtn');
+    const menu = document.getElementById('menu');
 
-btn.addEventListener("click", active);
+    menuBtn.addEventListener('click', () => {
+      menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+    });
 
-function active() {
-  btn.classList.toggle("is_active");
-}
-
+    // Optional: close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+        menu.style.display = 'none';
+      }
+    });
 
 
 
