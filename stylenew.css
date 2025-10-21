@@ -40,7 +40,7 @@ nav{
     justify-content: center;
     height: 10vh;
     border-radius: 100px;
-    gap: 21.5vw;
+    gap: 20.8vw;
     border: 0.2px solid rgba(255,255,255, 0.1);
 }
 
@@ -95,10 +95,10 @@ ul li:hover{
 .navright .what{
     color: black;
     background-color: var(--font-color);
-    padding: 4px;
+    padding: 2px;
     border: none;
     border-radius: 100px;
-    font-size: 15px;
+    font-size: 18px;
     height: 35px;
     width: 35px;
 }
