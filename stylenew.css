@@ -11,7 +11,8 @@
 }
 
 :root {
-  --even-bg:#393E46 ;
+  --even-bgtwo:#393E46 ;
+  --even-bg:#1d2024;
   --odd-bg:#222831 ;
   --font-color:#EEEEEE;
   --primary-font:#7BC74D;
@@ -63,7 +64,11 @@ ul li:hover{
     display: flex;
     align-items: center;
     color: var(--font-color);
-    gap: 5px;
+    gap: 10px;
+}
+
+.navleft h2{
+    font-weight: 400;
 }
 
 .navleft img{
@@ -133,7 +138,7 @@ button{
     transform: rotate(90deg);
 }
 
-.oddfirst{
+.odd{
     height: 87vh;
     width: 100%;
     background-color: var(--odd-bg);
@@ -143,6 +148,8 @@ button{
 .even{
     height: 100vh;
     width: 100%;
-    background-color: var(--odd-bg);
+    background-color: var(--even-bg);
 }
+
+
 
