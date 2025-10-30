@@ -41,7 +41,7 @@ nav{
     justify-content: center;
     height: 10vh;
     border-radius: 100px;
-    gap: 20.8vw;
+    gap: 20.9vw;
     border: 0.2px solid rgba(255,255,255, 0.1);
 }
 
@@ -142,7 +142,6 @@ button{
     height: 87vh;
     width: 100%;
     background-color: var(--odd-bg);
-    z-index: -1;
 }
 
 .even{
@@ -151,5 +150,17 @@ button{
     background-color: var(--even-bg);
 }
 
+.inner{
+    color: #fff;
+    line-height: 1;
+    font-size: 2.5rem;
+}
 
+.rignt, .left{
+    height: ;
+}
 
+.inner, .typer{
+    margin-left: 30px;
+    margin-top: 10%;
+}
