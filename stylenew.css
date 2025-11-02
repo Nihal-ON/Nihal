@@ -200,4 +200,6 @@ button{
     margin-left: 12.5%;
     margin-top: 8%;
     z-index:-1 ;
+    box-shadow: var(--primary-font) 0px 30px 60px -12px inset, var(--primary-font) 0px 18px 36px -18px inset ;
+   rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
