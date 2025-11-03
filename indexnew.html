@@ -67,8 +67,17 @@
     <a href=""><button class="medci"><i class="bi bi-twitter-x"></i></button></a>
 
 </div>
-<a href=""><button class="cv"><div class="btndo"><i class="bi bi-arrow-down"></i></div>Download CV </button></a>
-</div>
+  <a href="#">
+    <button class="cv" id="downloadBtn">
+      <div class="btndo">
+        <i class="bi bi-arrow-down"></i>
+        <svg class="circledo" viewBox="0 0 50 50">
+          <circle cx="25" cy="25" r="23"></circle>
+        </svg>
+      </div>
+      Download CV
+    </button>
+  </a></div>
 </div>
 
 <div class="right">
@@ -105,7 +114,31 @@
 
 
 
+ const btn = document.getElementById('downloadBtn');
+    const btndo = btn.querySelector('.btndo');
+    const icon = btndo.querySelector('i');
 
+    btn.addEventListener('click', e => {
+      e.preventDefault(); // prevent navigation for demo
+      if (btndo.classList.contains('active')) return;
+
+      // Start circular animation
+      btndo.classList.add('active');
+      icon.className = 'bi bi-arrow-down';
+
+      // When circle completes (after 1.5s)
+      setTimeout(() => {
+        btndo.classList.remove('active');
+        btndo.classList.add('done');
+        icon.className = 'bi bi-check';
+      }, 1500);
+
+      // Reset to arrow after a short delay
+      setTimeout(() => {
+        btndo.classList.remove('done');
+        icon.className = 'bi bi-arrow-down';
+      }, 3000);
+    });
 
 
 
