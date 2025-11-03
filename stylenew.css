@@ -253,6 +253,9 @@ button{
     width: 120px;
     padding: 3px;
     transition: 0.6s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .media button:hover{
@@ -268,6 +271,22 @@ button{
     color: #000;
 
 }
+
+.btndo{
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 100px;
+    color: #000;
+}
+
+
+
+
+
+
+
 
 
 
