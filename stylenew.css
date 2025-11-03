@@ -250,8 +250,9 @@ button{
     border-radius: 100px;
     color: #fff;
     height: 50px;
-    width: 120px;
-    padding: 3px;
+    width: fit-content;
+    padding: 7px;
+    padding-right: 15px;
     transition: 0.6s ease;
     display: flex;
     align-items: center;
@@ -274,9 +275,13 @@ button{
 
 .btndo{
     background-color: #fff;
-    height: 30px;
-    width: 30px;
+    height: 38px;
+    width: 38px;
     border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100px;
     color: #000;
 }
