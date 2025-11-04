@@ -147,6 +147,7 @@ button{
 
 .odd-one, .odd, .even{
     display: flex;
+    align-items: center;
     
 }
 
@@ -175,7 +176,7 @@ button{
     font-size: 3.3rem;
 }
 
-.rignt, .left{
+.right, .left{
     height: 100%;
 }
 
@@ -201,8 +202,8 @@ button{
     background: none;
     position: absolute;
     margin-left: 12.5%;
-    margin-top: 8%;
     z-index:-1 ;
+    margin-top: 6%;
     box-shadow: 0 0 320px 20px rgba(123, 199, 77, 0.6), 0 0 520px 40px rgba(123, 199, 77, 0.3), inset 0 0 30px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -344,7 +345,7 @@ button{
     }
 
     .marq{
-        z-index: 1;
+        z-index: 5;
         position: absolute;
         bottom: 0;
         display: flex;
@@ -366,7 +367,7 @@ button{
     }
 
       .marqup{
-        z-index: 1;
+        z-index: 5;
         position: absolute;
         top: 0;
         display: flex;
@@ -388,13 +389,21 @@ button{
     }
 
     .box{
-        height: 70vh;
+        height: 90vh;
         width: 500px;
-        border-radius: 20px;
+        border-radius: 100px 300px;
         border: 30px solid var(--primary-font);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoHuDhyPhst8kiXREbrchdbjTQ-wrXYkslDw&s);
+        background-repeat: no-repeat ;
+        background-size: cover;       
         z-index: 4;
         position: relative;
-        transform: rotate(45deg);
+        margin-left: -20%;
+        transition: 0.3s ease;
+    }
+
+    .box:hover{
+        outline: 20px groove var(--font-color);
     }
 
 
