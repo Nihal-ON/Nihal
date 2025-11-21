@@ -389,22 +389,14 @@ button{
     }
 
     .box{
-        height: 90vh;
-        width: 500px;
-        border-radius: 100px 300px;
-        border: 30px solid var(--primary-font);
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoHuDhyPhst8kiXREbrchdbjTQ-wrXYkslDw&s);
-        background-repeat: no-repeat ;
-        background-size: cover;       
-        z-index: 4;
-        position: relative;
-        margin-left: -20%;
-        transition: 0.3s ease;
+     position: relative;
+     height: 200px;
+     width: 150px;
+     background: rgba(0, 0, 0, 0.45);
+    clip-path: path("M 10,20 L 60,20 L 70,10 1 70,10 L 80,0 L 140,8 L 150,10 L 150,190 L 148,200 L 10, 200 L 0,190 L 0,30 L 10,20 2");
     }
 
-    .box:hover{
-        outline: 20px groove var(--font-color);
-    }
+ 
 
 
 
