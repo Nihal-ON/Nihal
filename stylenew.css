@@ -102,7 +102,14 @@ ul li:hover{
     font-size: 15px;
     height: 35px;
     width: 35px;
+    transition: 0.3s ease;
 }
+
+.insta:hover{
+    transform: rotate(45deg);
+    border-radius: 100px;
+}
+
 
 .navright .what{
     color: black;
@@ -110,9 +117,15 @@ ul li:hover{
     padding: 2px;
     border: none;
     border-radius: 100px;
-    font-size: 18px;
+    font-size: 15px;
     height: 35px;
     width: 35px;
+    transition: 0.4s ease;
+}
+
+.what:hover{
+    transform: rotate(45deg);
+    border-radius: 10px;
 }
 
 .github{
@@ -388,13 +401,58 @@ button{
         background-color: transparent;
     }
 
-    .box{
-     position: relative;
-     height: 200px;
-     width: 150px;
-     background: rgba(0, 0, 0, 0.45);
-    clip-path: path("M 10,20 L 60,20 L 70,10 1 70,10 L 80,0 L 140,8 L 150,10 L 150,190 L 148,200 L 10, 200 L 0,190 L 0,30 L 10,20 2");
+.image-fr{
+    width: 200px;
+}
+
+
+ .image-row.offset {
+      transform: translateY(0%);
     }
+
+
+
+@keyframes scroll-down{
+
+    0%{
+        transform: translateY(0);
+    }
+
+     100%{
+        transform: translateY(-50%);
+    }
+
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.imgfr img{
+    height: 140px;
+    display: inline-block;
+    flex-wrap: nowrap;
+    gap: 30px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    
+
+}
+
+.imgfr{
+    margin-left: 20px;
+    margin-top: 100px;
+    animation: scroll-down 8s linear infinite;
+}
+
+.logoimg{
+    height: 130px;
+}
+
 
  
 
