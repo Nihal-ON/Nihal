@@ -626,6 +626,7 @@ button{
         align-items: center;
         justify-content: center;
         height: 80%;
+        padding: 30px;
     }
 
     .threele{
@@ -645,14 +646,115 @@ button{
         height: 50px;
         width: 50px;
         border-radius: 10px;
+         padding: 30px;
+
     }
 
     .smallbox{
-        display: block;
-        width: 100px;
-        height: 100px;
+      display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 10px; 
+  width: fit-content;
     }
 
     .innerthreeup{
-        display: flex;
+     display: flex;
+     padding: 5px;
+     text-align: center;
+     gap: 10px;
     }
+
+    .small, .big{
+        transition: 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small:hover, .big:hover{
+        transform: scale(1.1) rotate(5deg);
+    }
+
+
+    .rightin{
+        display: flex;
+        gap: 10px;
+    }
+
+    .big img{
+      height: 100px;
+    }
+
+
+
+
+
+.container{
+  width: 400px;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.skillbar{
+  background-color: var(--even-bg);
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  &::before{
+    content:  attr(data-skill); 
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  } 
+
+  &.learning::before{
+    width: calc(20% - 14px);
+    background: #6FAE44 ;
+  }
+  &.basic::before{
+    width: calc(40% - 14px);
+    background: #5B953A;
+  }
+  &.intermediate::before{
+    width: calc(60% - 14px);
+    background: #487C31;
+  }
+  &.advanced::before{
+    width: calc(80% - 14px);
+    background: #366428;
+  }
+  &.expert::before{
+    width: calc(100% - 14px);
+    background: #254D1F
+;
+  }
+} 
+
