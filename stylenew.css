@@ -627,6 +627,7 @@ button{
         justify-content: center;
         height: 80%;
         padding: 30px;
+        gap: 30px;
     }
 
     .threele{
