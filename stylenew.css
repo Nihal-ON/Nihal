@@ -763,3 +763,17 @@ button{
   }
 } 
 
+
+.eventwo{
+    background-color: var(--even-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+    gap: 30px;
+    position: relative;
+    z-index: -200;
+
+}
+
