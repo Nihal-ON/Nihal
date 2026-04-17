@@ -798,6 +798,19 @@ button{
 *,
 *:focus{outline: none}
 
+.getin h2{
+  font-size: 50px;
+  line-height: 1;
+  margin-top: -170px;
+  color: #fff;
+  margin-right: -110px;
+}
+
+.innercon input, textarea{
+  color: #fff;
+}
+
+
 form{
   width: 500px;
   margin: 0 auto;
@@ -963,10 +976,11 @@ form button:hover{
   border: none;
   border-radius: 50px;
   background: #222831;
-  padding: 10px 5px;
+  padding: 0 0 0 5px;
   gap: 5px;
   cursor: pointer;
   transition: 0.6s ease;
+  color: #fff;
 }
 
 .rightcontact i{
@@ -980,7 +994,6 @@ form button:hover{
   margin-left: 0;
   margin-right: 1px;
   position: relative;
-  top: -5px;
 
 }
 
