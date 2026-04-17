@@ -989,6 +989,7 @@ form button:hover{
   width: 40px;
   border-radius: 100px;
   display: flex;
+  transition: 0.2s ease;
   align-items: center;
   justify-content: center;
   margin-left: 0;
@@ -997,13 +998,64 @@ form button:hover{
 
 }
 
-.rightcontact button:hover{
+.firstcolu button:hover{
   transform: translateY(-5px);
 }
 
+.firstcolu button:hover i{
+  background-color: #fff;
+  color: #000;
+}
 
 .menu{
   display: block;
 }
 
+.location{
+  margin-top: 470px;
+  margin-left: -640px;
+  position: absolute;
+  z-index: 1000;
+}
+.location button{
+  height: 50px;
+  width: 490px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 50px;
+  background: #222831;
+  padding: 0 0 0 5px;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.6s ease;
+  color: #fff;
+}
 
+.location i{
+  background-color: rgba(12, 16, 18, 0.274);
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 1px;
+  position: relative;
+    transition: 0.2s ease;
+
+
+}
+
+.location button:hover{
+  transform: translateY(-5px);
+}
+
+.location:hover i{
+  background-color: #fff;
+  color: #000;
+  transform: rotate(30deg);
+  border-radius: 10px;
+}
